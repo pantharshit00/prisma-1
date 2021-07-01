@@ -1,6 +1,6 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1625161308473,
-  "repoUrl": "https://github.com/prisma/prisma",
+  "lastUpdate": 1625169970807,
+  "repoUrl": "https://github.com/pantharshit00/prisma-1",
   "entries": {
     "Benchmark.js Benchmark": [
       {
@@ -35252,6 +35252,86 @@ window.BENCHMARK_DATA = {
             "name": "typescript compilation ~50 Models",
             "value": 0.09,
             "range": "±3.12%",
+            "unit": "ops/sec",
+            "extra": "5 samples"
+          },
+          {
+            "name": "@prisma/client size",
+            "value": 6.9,
+            "range": "±0.00%",
+            "unit": "MB",
+            "extra": "1 samples"
+          },
+          {
+            "name": ".prisma/client size",
+            "value": 46,
+            "range": "±0.00%",
+            "unit": "MB",
+            "extra": "1 samples"
+          },
+          {
+            "name": ".prisma/client/index.d.ts size",
+            "value": 1.7,
+            "range": "±0.00%",
+            "unit": "MB",
+            "extra": "1 samples"
+          },
+          {
+            "name": ".prisma/client/index.js size",
+            "value": 2.7,
+            "range": "±0.00%",
+            "unit": "MB",
+            "extra": "1 samples"
+          },
+          {
+            "name": ".prisma/client/query-engine-debian-openssl-1.1.x size",
+            "value": 41,
+            "range": "±0.00%",
+            "unit": "MB",
+            "extra": "1 samples"
+          },
+          {
+            "name": "dotPlusAtPrismaClientFolder.zip size",
+            "value": 16,
+            "range": "±0.00%",
+            "unit": "MB",
+            "extra": "1 samples"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "pantharshit00@gmail.com",
+            "name": "Harshit Pant",
+            "username": "pantharshit00"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "fc8e1a0c4ff25c61c37b40d120ba565278713f10",
+          "message": "Merge pull request #6 from pantharshit00/deps/engines-2.27.0-10.95952a791883bf14325798380cc9c7eb1045a7e5",
+          "timestamp": "2021-07-02T01:32:52+05:30",
+          "tree_id": "634db6c555e85d4d0f9583ee54cb8cdb9fcf8b04",
+          "url": "https://github.com/pantharshit00/prisma-1/commit/fc8e1a0c4ff25c61c37b40d120ba565278713f10"
+        },
+        "date": 1625169963851,
+        "tool": "benchmarkjs",
+        "benches": [
+          {
+            "name": "client generation ~50 Models",
+            "value": 0.43,
+            "range": "±5.09%",
+            "unit": "ops/sec",
+            "extra": "7 samples"
+          },
+          {
+            "name": "typescript compilation ~50 Models",
+            "value": 0.11,
+            "range": "±2.28%",
             "unit": "ops/sec",
             "extra": "5 samples"
           },
