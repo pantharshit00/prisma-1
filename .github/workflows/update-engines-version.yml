@@ -65,6 +65,10 @@ jobs:
           pull-request-number: ${{ steps.cpr.outputs.pull-request-number }}
           merge-method: squash
 
+      - name: Sleep for 10 seconds 
+        run: sleep 10s
+        shell: bash
+
       - name: Auto approve Pull Request (to trigger automerge if tests passing)
         if: steps.cpr.outputs.pull-request-operation == 'created'
         uses: juliangruber/approve-pull-request-action@v1
